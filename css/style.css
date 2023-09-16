@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+.circle
+{ width: 50px; height: 50px; 
+	background: #fff; box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+	border-radius:50%;
+	text-align: center; line-height: 50px; 
+	font-size: 1.2rem;
+	color: #000;
+	border:none
+}
+.nav-circle
+{ width: 40px; height: 40px; 
+	background: #fff; box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+	border-radius:50%;
+	text-align: center; line-height: 45px; 
+	font-size: 1.2rem;
+	color: #000;
+	border:none
+}
+.menu-circle
+{ width: 42px; height: 42px; 
+	background: #FAF7F2; box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+	border-radius:50%;
+	text-align: center; line-height: 42px; 
+	font-size: 1rem;
+	color: #000;
+	border:none
+}
+.ke
+{ 
+	position: absolute; right: 14%; top: 10%;
+	width: 2px; height: 75%; 
+	background: #ddd
+}
+.box-app{width:100%; height: 390px;position: absolute;left:0;bottom: 0;border-radius: 10px; background: #fff; z-index: -1}
+.box-app2{padding:12rem 0 0 0;}
+.abcde{position: absolute; z-index: -1;min-width: 50%;height: 100%;;top:0;right:40%}
+
+
+
+
+@media (max-width:1000px){
+	.ke{ right: 8%; top:12%
+	}
+	.box-app{width:100%; height: 300px;position: absolute;bottom: 10.5rem ;border-radius: 10px; background: #fff;z-index: -1}
+	.box-app2{padding:2rem 0 0 0;}
+	.abcde{position: absolute; z-index: -1;top:0;right:0}
+	
+	.form-menu1{max-width: 100%}
+	.form-menu2{position : relative;;display: none}
+	.nen{display: block}
+	.form-menu3{display: none}
+	h1{max-width: 100%}
+	.menu-page{max-width: 100%}
+	.text-form-menu{max-width: 100%}
+	.form-control{max-width: 100%}
+	.navbar{max-width: 100%}
+	.bc{display: block;background:  rgba(250,250,250,0.7); }
+}	
+	
+@media (max-width:600px){
+	.ke{ right:14%;}
+	.box-app{width:100%;bottom:13.5rem }
+	.abcde{position: absolute; z-index: -1;top:0;}
+	.nen{display: none}
+	
+}	
+
+
+
+.navbar .form-inline
+{ 
+	background: #fff; border: 1px solid #ddd;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+	border-radius: 10px;
+	position: relative;
+	display: flex
+}
+.navbar .form-inline .btn{ position: absolute; right: 5px}
+.navbar .form-control { border: none; background: transparent; width:95%}
+.navbar .badge { position:absolute; padding:5px 7px; border-radius: 50%; font-size: 0.6rem}
+.sale{position: absolute;top:0;right: 0;}
+.category{ 
+	position: relative; background: #FFFFFF; border-radius: 10px; padding: 2rem;box-sizing:border-box;
+	
+}
+.category p{ margin-bottom:0}
+.staff-card{
+	background: #FFFFFF; border-radius: 10px; padding: 1rem; position: relative;
+}
+.staff-card h6,p{
+	margin: 1rem
+}
+.review{background: #fff; border-radius: 10px; padding: 2rem; max-width: 100%; box-sizing: border-box;}
+.review p{margin: 0; padding:0;}
+.blog{background: #fff; border-radius: 10px;padding: 1rem 0;margin: 1rem 0;}
+.blog a{color:#00A850;margin: 1rem;}
+.blog img{;margin: 1rem 0;}
+.blog a:hover{color: #FF8E28; }
+.ab{background: url("../img/bg1.png") repeat-x top right; }
+.bc{border-radius: 10px; padding: 1.5rem;}
+.abc{position: absolute;min-width: 65%;height: 100%;top:0;left:0; background: #fff; z-index: -1}
+.abcd{position: absolute;min-width: 50%;height: 100%;top:0;left:0; background: #fff; z-index: -1}
+.footer p,h3,h4{margin: 0; padding: 0}
+.footer-link {display: block; color: #8D8D8D; padding: 0 0 0.5rem 0}
+.a{height: 0.5px;width: 100%;background: #8D8D8D}
+.bg-menu{background: url("../img/menu (3).png") repeat-x center;}
+.bg-menu1{background:#fff; width: 70%;height:100%;border-radius: 10px;position: absolute;}
+.btn-menu{  color: #1E1D23;
+  background-color: #fff;
+  border-color: #f8f9fa; border-radius: 10px;margin: 0 1rem 0 0;}
+.kengang {text-decoration: line-through}
+.menu-page{background: #fff; padding: 3rem; box-sizing: border-box}
+.form-menu{background: url("../img/tm_bg 1.png") repeat-x center}
+
+.form-menu3{width: 100%; height: 10px;}
+.form-menu2{position: absolute; right: 65%;height: 100%;}
+.text-form-menu{background: none; border: 0.5px solid #8D8D8D; padding: 2rem; max-width: 100%}
+.card-blog{background: #fff; border-radius: 10px; margin: 0; max-width: 100%}
+.author{width: 30px;height: 30px;}
+.form-blog{background: #FAF7F2; border: none; border-radius: 10px;padding: 1rem;}
+.post{height: 80px;width: 80px;background:#FAF7F2; border-radius: 10px; }
+.tag-link{background: #FAF7F2; color:#8D8D8D; padding: 0.5rem; font-size: 0.8rem;line-height:2.5rem; border-radius: 10px;}
+.text-form-contact{background:#FAF7F2; border-radius: 10px;border: none; padding: 1.5rem; max-width: 100%}
+.staff-card1{
+	background: #000; border-radius: 10px; padding: 1rem; position: relative;
+}
+.staff-card1 h6,p{
+	margin: 1rem
+}
+img{max-width: 100%}
+.btn-staff{background:#FAF7F2 }
+
